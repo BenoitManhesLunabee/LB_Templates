@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.lunabee.lbtemplates.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.lunabee.lbtemplates.MyBundle
 
 class MyApplicationService {
 
