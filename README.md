@@ -245,7 +245,7 @@ fun List<String>.toDir(srcDir: PsiDirectory): PsiDirectory {
 }
 ```
 
-#### Conversions methods
+### Conversions methods
 Beside standard Freemarker built-in methods you can also use conversion methods added by JetBrains. There’s no official reference for those, but all of them can be seen in the source code of their FreemarkerUtil::createParameterMap method:
 ```java
 public static Map<String, Object> createParameterMap(@NotNull Map<String, Object> args) {
@@ -285,7 +285,15 @@ public static Map<String, Object> createParameterMap(@NotNull Map<String, Object
     return paramMap;
   }
 ```
-
+## Plugin version
+Plugin version defined in `gradle.properties`
+```gradle
+pluginGroup = com.github.lunabee.lbtemplates
+pluginName_ = LB_Templates
+pluginVersion = 1.0.0
+pluginSinceBuild = 193
+pluginUntilBuild = 202.*
+```
 ## Useful links
 [Guide used for this plugin](https://steewsc.medium.com/template-plugin-for-android-studio-4-1-92dcbc689d39)
 
