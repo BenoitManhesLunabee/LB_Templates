@@ -9,8 +9,6 @@ import com.intellij.psi.PsiManager
 import org.jetbrains.kotlin.idea.KotlinLanguage
 import templates.base.res.layout.someActivityLayout
 import templates.base.src.app_package.someActivity
-import templates.fragmentviewmodelfactory.src.app_package.fragmentClass
-import templates.fragmentviewmodelfactory.src.app_package.viewModelClass
 
 fun recipeSetup(
     moduleData: ModuleTemplateData,
