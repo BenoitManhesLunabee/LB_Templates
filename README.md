@@ -190,7 +190,7 @@ parameter
 
 
 ### Recipe.kt
-Recipe files contain instructions for the processor pertaining to file creation and modification. It has the following structure:
+Recipe files contain instructions for the processor pertaining to file creation and modification. The template file functions are called here. It has the following structure:
 ```kotlin
 import com.android.tools.idea.wizard.template.ModuleTemplateData
 import com.github.lunabee.lbtemplates.listeners.MyProjectManagerListener.Companion.projectInstance
